@@ -1,4 +1,6 @@
-This repo contains the config files and GPflow code which accompanies the manuscript: "Targeted materials discovery using Bayesian Algorithm Execution". We recommend for practical usage of BAX methods to use the following repo which provides tutorials and a cleaner interface: https://github.com/src47/multibax-sklearn
+This repo contains the config files and GPflow code which accompanies the manuscript: "Targeted materials discovery using Bayesian Algorithm Execution". 
+
+#### We recommend for practical usage of BAX methods to use the following repo which provides tutorials and a cleaner interface: https://github.com/src47/multibax-sklearn
 
 ## Installation via pip
 
