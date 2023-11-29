@@ -29,7 +29,7 @@ $ export PYTHONPATH=$(pwd)
 And then in the main directory, run (changing the config file as desired): 
 
 ```bash
-$ ./parallel.sh
+$ ./submit.sh
 ```
 
 ## Reproducing paper plots
