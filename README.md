@@ -4,9 +4,18 @@ This repo contains the config files and GPflow code which accompanies the manusc
 
 ## Installation via pip
 
-To install, run:
-```bash
-$ pip install -r requirements.txt
+1) Make a new local folder and clone the repository
+
+```
+git clone https://github.com/src47/materials-bax-gpflow.git
+```
+
+2) Create a virtual environment and install requirements
+
+```
+python3 -m venv .venv
+source ./venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Running Examples
