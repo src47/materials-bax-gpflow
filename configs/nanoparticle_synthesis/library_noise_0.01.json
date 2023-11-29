@@ -3,7 +3,7 @@
     "output_folder_path": "results/",
     "columns_x": ["c1","c2","pH","T"],
     "columns_y": ["size" , "dispersity"],
-    "n_iter": 20,
+    "n_iter": 300,
     "n_repeat": 1,
     "n_paths": 15,
     "subregion_algo_name": "LevelSetDisconnected",
