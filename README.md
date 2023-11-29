@@ -22,6 +22,20 @@ And then in the main directory, run (changing the config file as desired):
 ```bash
 $ ./parallel.sh
 ```
+
+## Reproducing paper plots
+
+To reproduce plots from the paper ensure the confg files have not been modified. Changing the config file will give erroneous visualizations for the objective space visualization. 
+
+Run the following
+```bash
+$ export PYTHONPATH=$(pwd) 
+$ python plotting/plot_figures.py   
+```
+
+This will create a directory ./plot_visualizations, where you can view all the generated plots. Currently this relies on pkl files generated from our repeated runs on sdf. If desired, the functions in plot_figures.py can be repurposed for visualization, of results using parallel.sh.
+
+
 # References 
 
 For ternary phase diagram dataset [1,2] used in this work, please use the following instructions:
