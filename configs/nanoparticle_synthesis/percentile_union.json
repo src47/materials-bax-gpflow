@@ -1,0 +1,25 @@
+{   
+    "dataset_path": "datasets/science_datasets/np_synthesis.csv",
+    "output_folder_path": "results/",
+    "columns_x": ["c1","c2","pH","T"],
+    "columns_y": ["size" , "dispersity"],
+    "n_iter": 300,
+    "n_repeat": 1,
+    "n_paths": 15,
+    "subregion_algo_name": "Percentile2D",
+    "subregion_algo_params": {"percentile_list": [99.5, 97.5], "max_or_min_list": [0, 0], "combination_type": "union"},
+    "strategy": [["SwitchBAX", null, 0.0], ["InfoBAX", null, 0.0], ["MeanBAX", null, 0.0], ["US", null, 0.0], ["RS", null, 0.0]],
+    "min_values_x": [0, 0, 0, 0],
+    "max_values_x": [1, 1, 1, 1],
+    "min_values_y": [0, 0],
+    "max_values_y": [30, 30],
+    "adaptive_gp_hypers": true,
+    "adaptive_gp_hypers_rate": 10,
+    "n_initial": 10,
+    "verbose": false,
+    "prevent_requery": true,
+    "mobo_maximize": false,
+    "output_sigma": 0.01,
+    "run_distributed": true
+}
+

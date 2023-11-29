@@ -1,0 +1,55 @@
+subspace_algorithm/results/
+.pytest_cache/
+.dockerignore
+.venv/
+all_gifs/
+results/
+si_figs.py
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter notebook
+.ipynb_checkpoints
+
+# Vim
+*.sw*
+
+# Mac
+*.DS_Store
+
+# Hidden
+*hide
+*hide_*
+save_*
+
+# Python
+*pylintrc*
+*.pkl
+
+# Sphinx documentation
+docs/_build/
+
+# Misc images
+*.png
+
+# venv
+env/
+bonanzaenv
+
+#vscode
+.vscode
+
+# Data files
+*.h5
+
+# images
+images/
+
+.idea/
+legacy_code/
+subspace_algorithm/subspace_algorithm_tests/automated_tests.sh

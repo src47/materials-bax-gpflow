@@ -1,0 +1,25 @@
+{   
+    "dataset_path": "datasets/science_datasets/ternary.csv",
+    "output_folder_path": "results/",
+    "columns_x": ["c_Fe", "c_Co"],
+    "columns_y": ["coer","kerr"],
+    "n_iter": 500,
+    "n_repeat": 1,
+    "n_paths": 15,
+    "subregion_algo_name": "WishList",
+    "subregion_algo_params": {"list_of_wishes": [[[2.0,3.0], [0.2, 0.3]], [[4.0,6.0], [0.2, 0.4]], [[9.0,10.0], [0.0, 0.1]], [[3.0,4.0], [0.7, 0.8]]]},
+    "strategy": [["InfoBAX", null, 0.0], ["HybridBAX", null, 0.0]],
+    "min_values_x": [0, 0],
+    "max_values_x": [100, 100],
+    "min_values_y": [0, 0],
+    "max_values_y": [10, 1],
+    "adaptive_gp_hypers": false,
+    "adaptive_gp_hypers_rate": 10,
+    "n_initial": 10,
+    "verbose": false,
+    "prevent_requery": true,
+    "output_sigma": 0.00,
+    "mobo_maximize": true,
+    "run_distributed": true
+}
+
