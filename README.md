@@ -2,9 +2,10 @@
 
 This repo contains the config files and GPflow code which accompanies the manuscript: "Targeted materials discovery using Bayesian Algorithm Execution". 
 
+[!TIP]
 #### We recommend for practical usage of BAX methods to use the following repo which provides tutorials and a cleaner interface: https://github.com/src47/multibax-sklearn
 
-## Installation via pip
+### Installation
 
 1) Make a new local folder and clone the repository
 
@@ -20,7 +21,7 @@ source ./venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Running Examples
+### Running Examples
 
 First make sure this repo directory is on the PYTHONPATH, e.g. by running:
 
@@ -34,7 +35,7 @@ And then in the main directory, run (changing the config file as desired):
 $ ./submit.sh
 ```
 
-## Reproducing paper plots
+### Reproducing paper plots
 
 To reproduce plots from the paper ensure the confg files have not been modified. Changing the config file will give erroneous visualizations for the objective space visualization. 
 
@@ -47,7 +48,7 @@ $ python plotting/plot_figures.py
 This will create a directory ./plot_visualizations, where you can view all the generated plots. Currently this relies on pkl files generated from our repeated runs on sdf. If desired, the functions in plot_figures.py can be repurposed for visualization, of results using parallel.sh.
 
 
-## References 
+### References 
 
 For ternary phase diagram dataset [1,2] used in this work, please use the following instructions:
 - Download the data file "FeCoNi_benchmark_dataset_220501a.mat" from https://github.com/usnistgov/remi/tree/nist-pages/data/Combinatorial%20Libraries/Fe-Co-Ni, convert to csv (named "ternary.csv") and place in the datasets directory. 
